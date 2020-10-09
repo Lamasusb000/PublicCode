@@ -1,2 +1,5 @@
-This is code that I have written and decided to make public.
-Be sure to credit or at least say thanks!
+Public Code To Make Lives Easier!
+
+Simple Coding Projects Designed To Be Light Weight And Added To Complex Projects With Ease!
+
+--Created By Junior Lamas

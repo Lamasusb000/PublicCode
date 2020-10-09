@@ -2,7 +2,9 @@
 	//Variable Carrying Requested Data
 window.RequestedData = ""
 	//Eaiser Way To Read File Directory
-var Location = "/Folder/File.JSON"
+var Location = "/JSON/Test.JSON"
+	//Variable For Carrying Output Array
+var Output = []
 
 
 async function FetchData() {
@@ -10,6 +12,7 @@ async function FetchData() {
     if (response.status === 200) {
         let data = await response.json();
 		window.RequestedData = data
+		CreateArray()
     }
 }
 
@@ -21,11 +24,11 @@ function CreateArray(){
 	for (let i = 0; i < RequestedData.length; i++) {
 		Output.push(`
 			<p>
-				Text Before ${RequestedData[i].InsertTag} Text After
+				Text Before- ${RequestedData[i].InsertTag} -Text After
 				<br>
-				Text Before ${RequestedData[i].InsertTag} Text After
+				Text Before- ${RequestedData[i].InsertTag} -Text After
 				<br>
-				Text Before ${RequestedData[i].InsertTag} Text After
+				Text Before- ${RequestedData[i].InsertTag} -Text After
 			</p>
 		`)
 	}

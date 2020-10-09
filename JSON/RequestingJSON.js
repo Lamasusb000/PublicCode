@@ -2,7 +2,7 @@
 	//Variable Carrying Requested Data
 window.RequestedData = ""
 	//Eaiser Way To Read File Directory
-var Location = "/Folder/File.JSON"
+var Location = "/JSON/Test.JSON"
 
 
 async function FetchData() {

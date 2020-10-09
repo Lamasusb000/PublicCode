@@ -1,11 +1,14 @@
 [
 	{
-		"InsertTag": "Data 1"
+		"InsertTag": "Data 1",
+		"MoreData" : "More Data"
 	},
 	{
-		"InsertTag": "Data 2"
+		"InsertTag": "Data 2",
+		"MoreData" : "More Data"
 	},
 	{
-		"InsertTag": "Data 3"
+		"InsertTag": "Data 3",
+		"MoreData" : "More Data"
 	}
 ]

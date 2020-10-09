@@ -17,7 +17,7 @@ Dark Mode Javascript that Creates a LocalStorage Item That Allows Cross Page The
 --DarkCheck()--
 	onload of Webpage It Will Detect Localstorage And Set The Theme Automatically
 --DarkSwitch()--
-	Can Be Used in Many Ways And By Running Function it Will Change Theme From Light Mode To Dark Mode
+	Can Be Used in Many Ways And By Running The Function it Will Change Theme From Light Mode To Dark Mode
 
 
 ---Cascading Style Sheets (CSS)---

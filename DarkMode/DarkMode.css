@@ -1,0 +1,23 @@
+:root{
+	--background-color: rgb(233, 227, 227);
+	--text-color: black;
+	--table-border:rgb(153, 146, 146);
+	--link-color:rgb(43, 164, 204);
+}
+[data-theme="dark"] {
+	--background-color: rgba(24, 21, 21, 0.74);    
+	--text-color:rgb(204, 198, 198);
+	--table-border:rgba(48, 46, 46, 0.74);
+	--link-color:rgb(43, 164, 204);
+}
+body {
+	background: var(--background-color);
+	color: var(--text-color);
+    transition: background .5s;
+}
+a{
+	color: var(--link-color);
+}
+table, td{
+	border: 2px solid var(--table-border);
+}

@@ -1,7 +1,7 @@
 //Defining Of Variables
 	//Variable Carrying Requested Data
 window.RequestedData = ""
-	//Eaiser Way To Read File Directory
+	//Easier Way To Read File Directory
 var Location = "/JSON/Test.JSON"
 
 
